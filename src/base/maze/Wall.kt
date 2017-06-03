@@ -1,4 +1,4 @@
-package abstract_factory_kotlin.base
+package base.maze
 
 open class Wall : MapSite {
     override fun enter() { }

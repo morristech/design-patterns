@@ -1,8 +1,7 @@
 package abstract_factory_kotlin.enchanted
 
-import abstract_factory_kotlin.base.Door
 import abstract_factory_kotlin.base.MazeFactory
-import abstract_factory_kotlin.base.Room
+import base.maze.Room
 
 class EnchantedMazeFactory : MazeFactory() {
     override fun makeRoom(n: Int) = EnchantedRoom(n, castSpell())

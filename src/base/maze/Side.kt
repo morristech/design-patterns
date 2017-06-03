@@ -1,4 +1,4 @@
-package abstract_factory_kotlin.base
+package base.maze
 
 enum class Side {
     NORTH, SOUTH, EAST, WEST

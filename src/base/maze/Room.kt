@@ -1,6 +1,4 @@
-package abstract_factory_kotlin.base
-
-import java.util.HashMap
+package base.maze
 
 open class Room(val number: Int) : MapSite {
     private val sideMap = HashMap<Side, MapSite>()

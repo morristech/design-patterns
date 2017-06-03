@@ -1,8 +1,8 @@
 package abstract_factory_kotlin
 
-import abstract_factory_kotlin.base.Maze
+import base.maze.Maze
 import abstract_factory_kotlin.base.MazeFactory
-import abstract_factory_kotlin.base.Side.*
+import base.maze.Side.*
 
 object MazeGame {
     fun createMaze(factory: MazeFactory): Maze {

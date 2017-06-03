@@ -1,7 +1,7 @@
 package abstract_factory_kotlin
 
 import abstract_factory_kotlin.base.MazeFactory
-import abstract_factory_kotlin.base.Side
+import base.maze.Side
 import abstract_factory_kotlin.bombed.BombedMazeFactory
 import abstract_factory_kotlin.bombed.BombedWall
 import abstract_factory_kotlin.bombed.RoomWithABomb

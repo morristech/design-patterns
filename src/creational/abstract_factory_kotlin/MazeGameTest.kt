@@ -1,6 +1,5 @@
 package creational.abstract_factory_kotlin
 
-import creational.abstract_factory_kotlin.base.MazeFactory
 import base.maze.Side
 import creational.abstract_factory_kotlin.bombed.BombedMazeFactory
 import creational.abstract_factory_kotlin.bombed.BombedWall

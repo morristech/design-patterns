@@ -7,6 +7,9 @@ import creational.prototype.maze.MazeProto
 import creational.prototype.maze.RoomProto
 import creational.prototype.maze.WallProto
 
+/**
+ * This factory will "clone" the provided prototypes and init them using the passed parameters
+ */
 class MazePrototypeFactory(val prototypeWall: WallProto,
                            val prototypeRoom: RoomProto,
                            val prototypeDoor: DoorProto) {

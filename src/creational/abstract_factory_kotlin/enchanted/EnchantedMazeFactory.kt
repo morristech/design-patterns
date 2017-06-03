@@ -1,6 +1,6 @@
 package creational.abstract_factory_kotlin.enchanted
 
-import creational.abstract_factory_kotlin.base.MazeFactory
+import creational.abstract_factory_kotlin.MazeFactory
 import base.maze.Room
 
 class EnchantedMazeFactory : MazeFactory() {

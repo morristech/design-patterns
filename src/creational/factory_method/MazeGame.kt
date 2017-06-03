@@ -6,12 +6,15 @@ open class MazeGame {
     private fun makeMaze() = Maze()
 
     /**
-     * Subclasses override this factory methods to choose its components
+     * Subclasses override these factory methods to choose its components
      */
     open protected fun makeWall() = Wall()
     open protected fun makeRoom(n: Int) = Room(n)
     open protected fun makeDoor(r1: Room, r2: Room) = Door(r1, r2)
 
+    /**
+     * Create method is part of the factory class, not outside like in Abstract Factory pattern
+     */
     fun createMaze(): Maze {
         val maze = makeMaze()
         val r1 = makeRoom(1)

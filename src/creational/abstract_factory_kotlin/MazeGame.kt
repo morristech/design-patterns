@@ -1,7 +1,6 @@
 package creational.abstract_factory_kotlin
 
 import base.maze.Maze
-import creational.abstract_factory_kotlin.base.MazeFactory
 import base.maze.Side.*
 
 object MazeGame {

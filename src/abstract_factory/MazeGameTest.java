@@ -2,7 +2,6 @@ package abstract_factory;
 
 import abstract_factory.base.Maze;
 import abstract_factory.base.MazeFactory;
-import abstract_factory.base.Room;
 import abstract_factory.base.Side;
 import abstract_factory.bombed.BombedMazeFactory;
 import abstract_factory.bombed.BombedWall;
